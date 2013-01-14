@@ -1,0 +1,29 @@
+{
+  "name": "html5-uploader",
+  "version": "0.9.0",
+  "root": "arale",
+  "description": "simple uploader by html5 features",
+  "homepage": "http://aralejs.org/html5-uploader/",
+  "author": "Denis <danxia.shidx@alipay.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aralejs/html5-uploader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aralejs/html5-uploader/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "upload",
+    "ajax upload",
+    "html5 upload"
+  ],
+  "dependencies": {
+    "$": "$",
+    "widget": "arale/widget/1.0.2/widget"
+  },
+  "tests": ["html5-uploader"],
+  "output": {
+    "html5-uploader.js": "."
+  }
+}
